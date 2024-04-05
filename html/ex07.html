@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- 테이블 작성해보기 -->
+<html lang="en">
+<style>
+    /* 한줄짜리 깔끔한 테두리 만들기 */
+    table, td, th{
+        border: 1px solid navy;
+        border-collapse: collapse;
+        text-align: center;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th rowspan="2">번호</th>
+            <th colspan="2">제목</th>
+        </tr>
+        <tr>
+            <!-- <td>1</td> -->
+            <td>a</td>
+            <td rowspan="2">가</td>
+        </tr>
+    </table>
+</body>
+</html>

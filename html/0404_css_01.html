@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            div {
+                width: 100px;
+                height: 10px;
+                border: 1px solid magenta;
+                border-radius: 10px;
+            }
+            *{ font-size: 10px;}
+
+            #first{ background:red; }
+            #second{ background: orangered; }
+            #text { color: darkblue; }
+
+            p{ background-color:saddlebrown; }
+            p:nth-child(3){ background-color: cornflowerblue;}
+            a{ color: crimson;}
+            span.desc{ color:darkcyan;}
+
+            .title { background: yellowgreen; }
+        </style>
+    </head>
+
+    <body>
+        <div></div>
+        <p id="text">p 색상변경 우선순위 확인</p>
+        <p> p 앵커 태그 내용</p>
+        <a>A 앵커 태그 내용</a>
+
+        <div id="first">첫번째 div</div>
+        <div id="second">첫번째 div</div>
+        <span class="title">제목</span>
+        <span class="desc">제목</span>
+
+    </body>
+
+</html>
